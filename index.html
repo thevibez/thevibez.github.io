@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>≋≋≋thevibez≋≋≋</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ <div id="audio_controls">
+  <audio crossOrigin="anonymous">
+    <source src="https://radio.plaza.one/ogg?nocache" type="audio/ogg"/>
+  </audio>
+  <button id="play_button"><span id="play_icon"></span></button>
+  <button id="pause_button"><span id="pause_icon"></span></button>
+  <span id="sound">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </span>
+  <span id="progress_bar"></span>
+  <button id="sound_button"><span id="sound_icon"></span></button>
+  <div id="sound_box_outer">
+    <div id="sound_box">
+      <input id="sound_bar" type="range" min="0" max="100" value="100"/>
+      <span id="sound_text">100</span>
+    </div>
+  </div>
+</div>
+  <div>
+    <svg xmlns="http://www.w3.org/2000/svg" width="466" height="466">
+     <g>
+	  <circle cx="233" cy="233" r="231"/>
+	  <path d="M 233,459 a 226 226 0 0 1 0,-452 a 113 113 0 0 1 0,226 z" fill="#fff" opacity="1"/>
+	  <circle cx="233" cy="346" r="113" fill="#000"/>
+    <circle id="dot1" cx="233" cy="120" r="30"/>
+	  <circle id="dot2" cx="233" cy="346" r="30" fill="#fff"/>
+     </g>
+  </svg>
+  </div>
+  <script src="./clubber.min.js"></script>
+  <script src="./clubberize.js"></script>
+  <script  src="./script.js"></script>
+  <script  src="./player.js"></script>
+  
+</body>
+</html>
